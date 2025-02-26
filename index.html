@@ -54,7 +54,68 @@ The results of the minimum-viable test and the feedback from the target audience
 The usefulness of MVP development is evidenced by examples of large companies so far. For example, Daniel Eck and Martin Laurentson launched a small service in 2006 with a single function, the music streaming. Today, their product, Spotify, is valued at $21 billion, collaborates with large recording studios, and has 50 million active audiences.
 In 2008, when the rental of a hotel or accommodation during the trip was a major problem, two enthusiasts decided to approach the issue in an unusual way and to fax their apartment. In fact, it's also the MVP that tested the main function. The experiment has shown that the product will be demanded, and Airbnb is now one of the largest short-term rental sites.</p>
     </div>
-
+    <div class="part-container">
+        Et luua kaug-repositoorium (remote repository) ja ühendada see oma lokaalse repositooriumiga, tuleb järgida järgmisi samme. Siin on lihtne juhend Git-i kasutamiseks:
+    1. Loo kaug-repositoorium (GitHub, GitLab, Bitbucket jne)
+    
+        Loo konto näiteks GitHubis või GitLabis.
+        Loo uus repositoorium veebiliideses ja salvesta see link (nt https://github.com/kasutaja/repo-nimi.git).
+    
+    2. Initsialiseeri lokaalne Git-repositoorium
+    
+    Kui sul ei ole veel lokaalset Git-repositooriumit, siis ava terminal ja kasuta järgmisi käske:
+    
+    <ul><li>git init</li></ul>
+    
+    See loob .git kausta, mis muudab sinu kausta Git-repositooriumiks.
+    3. Lisa faile ja tee esimene commit
+    
+    Kui oled juba faile loonud või soovid neid lisada, siis kasuta järgmisi käske:
+    
+    <ul><li>git add .</li></ul>
+    <ul><li>git commit -m "Esimene commit"</li></ul>
+    
+    Esimene käsk lisab kõik failid versioonihaldusse ja teine käsk teeb commit'i koos sõnumiga.
+    4. Lisa kaug-repositoorium
+    
+    Nüüd, kui sul on lokaalne repositoorium ja kaug-repositoorium (nt GitHub), pead ühendama need. Kasuta järgmist käsku:
+    
+    <ul><li>git remote add origin https://github.com/kasutaja/repo-nimi.git</li></ul>
+    
+    Siin asenda <a href="https://github.com/kasutaja/repo-nimi.git">https://github.com/kasutaja/repo-nimi.git</a> oma kaug-repositooriumi URL-iga.
+    5. Lükka muudatused kaug-repositooriumisse
+    
+    Kui kõik on valmis, saad oma muudatused kaug-repositooriumisse saata järgmise käsuga:
+    
+    <ul><li>git push -u origin master</li></ul>
+    
+    Kui kasutad main haru, siis kasuta:
+    
+    <ul><li>git push -u origin main</li></ul>
+    
+    6. Kinnita ühendus
+    
+    Kui kõik on õigesti tehtud, saad kontrollida, kas kaug-repositoorium on lisatud järgmise käsuga:
+    
+    <ul><li>git remote -v</li></ul>
+    
+    See näitab kaug-repositooriumite aadresse, mis on ühendatud sinu lokaalse repositooriumiga.
+    Kokkuvõte:
+    
+        <ul>
+            <li>git init – Loo lokaalne repositoorium.</li>
+            <li>git add . – Lisa kõik failid versioonihaldusse.</li>
+            <li>git commit -m "message" – Tee commit koos sõnumiga.</li>
+            <li>git remote add origin URL – Lisa kaug-repositoorium.</li>
+            <li>git push -u origin main – Lükka muudatused kaug-repositooriumisse.</li>
+        </ul>
+        
+        
+        
+        
+    
+    Need on põhilised käsud, mida kasutada kaug-repositooriumi loomiseks ja selle ühendamiseks oma lokaalse repositooriumiga.
+    </div>
 </div>
 </body>
 </html>
