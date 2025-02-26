@@ -11,14 +11,29 @@ body{
     justify-content: center;
 }
 .part-container{
+	margin-bottom:20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #2d3140;
     padding: 20px;
     width: 40%;
     border-bottom: 2px solid #252733;
 }
+.header-container img {
+	border-radius:10px;
+	border: 3px solid #8804d4;
+}
 h1, h2{
     color:#8804d4;
+}
+.header-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+	padding:50px;
+	
 }
