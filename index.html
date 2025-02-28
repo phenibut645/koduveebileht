@@ -7,20 +7,30 @@
 </head>
 <body>
 <div class="main-container">
-
+<div class="nav-container">
+    <div class="nav-items"><a href="#bio">Bio</a></div>
+    <div class="nav-items"><a href="#keeled">Keeled</a></div>
+    <div class="nav-items"><a href="#it">IT tehnoloogiad</a></div>
+    <div class="nav-items"><a href="#arvuti">Arvuti taga</a></div>
+    <div class="nav-items"><a href="#projektid">Kõige paremat projektid</a></div>
+    <div class="nav-items"><a href="#wordpress">Wordpres</a></div>
+    <div class="nav-items"><a href="#mvp">MVP</a></div>
+    <div class="nav-items"><a href="#git">Git</a></div>
+    <div class="nav-items"><a href="#kokkuvote">Kokkuvõte</a></div>
+</div>
 <div class="header-container">
 <h1>Koduleht</h1>
 <img src="https://aleksandermilisenko23.thkit.ee/maparea/zxc-cat/zxccat.jpg" width="100px" height="100px">
 </div>
     <div class="part-container">
-        <h2>BIO</h2>
+        <h2 id="bio">BIO</h2>
         <p>
-            Aleksander Milishenko
+            Nimi: Aleksander Milishenko
         </p>
         
     </div>
     <div class="part-container">
-        <h2>Keeled mis olen õppinud või õpin</h2>
+        <h2 id="keeled">Keeled mis olen õppinud või õpin</h2>
         <ul>
             <li>Eesti keel</li>
             <li>Inglise keel</li>
@@ -28,7 +38,7 @@
         </ul>
     </div>
     <div class="part-container">
-        <h2>IT tehnoloogia mis olen õppinud või õpin</h2>
+        <h2 id="it">IT tehnoloogia mis olen õppinud või õpin</h2>
         <ul>
             <li>Next.js</li>
             <li>React</li>
@@ -36,86 +46,97 @@
         </ul>
     </div>
     <div class="part-container">
-        <h2>Mida sa oskad teha arvuti taga</h2>
+        <h2 id="arvuti">Mida sa oskad teha arvuti taga</h2>
         <ul>
             <li>Sööma</li>
+            <li>Jooma</li>
+            <li>Magama</li>
         </ul>
     </div>
     <div class="part-container">
-        <h2>lingid sinu parimatele projektidele</h2>
-        <a href=""></a>
+        <h2 id="projektid">Lingid sinu parimatele projektidele</h2>
+        <a href="https://github.com/phenibut645/shop-webserver">Python web server</a>
+        <a href="https://github.com/phenibut645/dynamic-tables">React app which trying to make much more performance for tables</a>
+        <a href="https://github.com/phenibut645/KinoRakendus">The biggest my created app on C# (+20k code lines)</a>
+        <a href="https://github.com/phenibut645/SQLITE3-Handler">SQL Handler on python. You can use classes and their methods instead sql queries</a>
     </div>
     <div class="part-container">
-        <h2>link sinu wp portfooliosse</h2>
-        <a href="https://aleksandermilisenko23.thkit.ee/wp">link</a>
+        <h2 id="wordpress">Link sinu wp portfooliosse</h2>
+        <a href="https://aleksandermilisenko23.thkit.ee/wp">Wordpress link</a>
     </div>
     <div class="part-container">
-        <p>Minimum Viable Product is a test version of a product, service or service with a minimum set of functions (sometimes even one), which is of value to the end user.
-MVPs are designed to test the hypothesis and test the viability of the intended product, how valuable it will be and what it will be required in the market.
-The results of the minimum-viable test and the feedback from the target audience help to understand whether the project should be developed further, what changes should be made to the strategy and what should be left in its original form.
-The usefulness of MVP development is evidenced by examples of large companies so far. For example, Daniel Eck and Martin Laurentson launched a small service in 2006 with a single function, the music streaming. Today, their product, Spotify, is valued at $21 billion, collaborates with large recording studios, and has 50 million active audiences.
-In 2008, when the rental of a hotel or accommodation during the trip was a major problem, two enthusiasts decided to approach the issue in an unusual way and to fax their apartment. In fact, it's also the MVP that tested the main function. The experiment has shown that the product will be demanded, and Airbnb is now one of the largest short-term rental sites.</p>
+        <h2 id="mvp">MVP</h2>
+        <div class="big-text"><p><strong>Minimum Viable Product</strong> is a test version of a product, service or service with a minimum set of functions (sometimes even one), which is of value to the end user.</p><p>
+        <p>MVPs are designed to test the hypothesis and test the viability of the intended product, how valuable it will be and what it will be required in the market.</p>
+        <p>The results of the minimum-viable test and the feedback from the target audience help to understand whether the project should be developed further, what changes should be made to the strategy and what should be left in its original form.</p>
+        <p>The usefulness of MVP development is evidenced by examples of large companies so far.</p><p> For example, Daniel Eck and Martin Laurentson launched a small service in 2006 with a single function, the music streaming.</p><p> Today, their product, Spotify, is valued at $21 billion, collaborates with large recording studios, and has 50 million active audiences.</p>
+        <p>In 2008, when the rental of a hotel or accommodation during the trip was a major problem, two enthusiasts decided to approach the issue in an unusual way and to fax their apartment.</p><p> In fact, it's also the MVP that tested the main function.</p> The experiment has shown that the product will be demanded, and Airbnb is now one of the largest short-term rental sites.
+        </div>
     </div>
     <div class="part-container">
+        <h2 id="git">Git</h2>
         Et luua kaug-repositoorium (remote repository) ja ühendada see oma lokaalse repositooriumiga, tuleb järgida järgmisi samme. Siin on lihtne juhend Git-i kasutamiseks:
-    1. Loo kaug-repositoorium (GitHub, GitLab, Bitbucket jne)
-    
-        Loo konto näiteks GitHubis või GitLabis.
-        Loo uus repositoorium veebiliideses ja salvesta see link (nt https://github.com/kasutaja/repo-nimi.git).
-    
-    2. Initsialiseeri lokaalne Git-repositoorium
-    
+        <h3>1. Loo kaug-repositoorium (GitHub, GitLab, Bitbucket jne)</h3>
+            <ul>
+                <li>Loo konto näiteks GitHubis või GitLabis.</li>
+                <li>Loo uus repositoorium veebiliideses ja salvesta see link (nt <a href="https://github.com/kasutaja/repo-nimi.git">link</a>).</li>
+            </ul>
+        <h3>2. Initsialiseeri lokaalne Git-repositoorium</h3>
     Kui sul ei ole veel lokaalset Git-repositooriumit, siis ava terminal ja kasuta järgmisi käske:
     
-    <ul><li>git init</li></ul>
+    <p class="block-code"><span style="color: #b0b837">git</span> init</p>
     
     See loob .git kausta, mis muudab sinu kausta Git-repositooriumiks.
-    3. Lisa faile ja tee esimene commit
+        <h3>3. Lisa faile ja tee esimene commit</h3>
     
     Kui oled juba faile loonud või soovid neid lisada, siis kasuta järgmisi käske:
-    
-    <ul><li>git add .</li></ul>
-    <ul><li>git commit -m "Esimene commit"</li></ul>
+
+        <p class="block-code"><span style="color: #b0b837">git</span> add .<br>
+            <span style="color: #b0b837">git</span> commit -m "Esimene commit"<p>
     
     Esimene käsk lisab kõik failid versioonihaldusse ja teine käsk teeb commit'i koos sõnumiga.
-    4. Lisa kaug-repositoorium
+    <h3>4. Lisa kaug-repositoorium</h3>
     
     Nüüd, kui sul on lokaalne repositoorium ja kaug-repositoorium (nt GitHub), pead ühendama need. Kasuta järgmist käsku:
+
+        <p class="block-code"><span style="color: #b0b837">git</span> remote add origin https://github.com/kasutaja/repo-nimi.git</p>
     
-    <ul><li>git remote add origin https://github.com/kasutaja/repo-nimi.git</li></ul>
-    
-    Siin asenda <a href="https://github.com/kasutaja/repo-nimi.git">https://github.com/kasutaja/repo-nimi.git</a> oma kaug-repositooriumi URL-iga.
-    5. Lükka muudatused kaug-repositooriumisse
+    Siin asenda <a href="https://github.com/kasutaja/repo-nimi.git" style="">link</a> oma kaug-repositooriumi URL-iga.
+    <h3>5. Lükka muudatused kaug-repositooriumisse</h3>
     
     Kui kõik on valmis, saad oma muudatused kaug-repositooriumisse saata järgmise käsuga:
-    
-    <ul><li>git push -u origin master</li></ul>
+
+        <p class="block-code"><span style="color: #b0b837">git</span> push -u origin master</p>
     
     Kui kasutad main haru, siis kasuta:
+
+        <p class="block-code"><span style="color: #b0b837">git</span> push -u origin main</p>
     
-    <ul><li>git push -u origin main</li></ul>
-    
-    6. Kinnita ühendus
+    <h3>6. Kinnita ühendus</h3>
     
     Kui kõik on õigesti tehtud, saad kontrollida, kas kaug-repositoorium on lisatud järgmise käsuga:
-    
-    <ul><li>git remote -v</li></ul>
+
+        <p class="block-code"><span style="color: #b0b837">git</span> remote -v</p>
     
     See näitab kaug-repositooriumite aadresse, mis on ühendatud sinu lokaalse repositooriumiga.
-    Kokkuvõte:
-    
+        <h4>Repositooriumi sidumine</h4>
+        Lokaalse repositooriumi sidumiseks uue kustutatud repositooriumiga tuleb kasutada git remote add käsku. See käsk võimaldab lisada uue kaugrepositooriumi ja siduda selle lokaalse külge.
+        <p class="block-code"><span style="color: #b0b837">git</span> remote add "name" "url</p>
         <ul>
-            <li>git init – Loo lokaalne repositoorium.</li>
-            <li>git add . – Lisa kõik failid versioonihaldusse.</li>
-            <li>git commit -m "message" – Tee commit koos sõnumiga.</li>
-            <li>git remote add origin URL – Lisa kaug-repositoorium.</li>
-            <li>git push -u origin main – Lükka muudatused kaug-repositooriumisse.</li>
+            <li>"name" — see on nimi kustutatud repositooriumisse (nt origin, upstream vms. d.).</li>
+            <li>"url" — see on uue kustutatud repositooriumi URL, mida soovite lisada.</li>
         </ul>
-        
-        
-        
-        
-    
+
+    <h3 id="kokkuvote">Kokkuvõte</h3>
+
+        <p class="block-code">
+            <span style="color: #b0b837">git</span> init – Loo lokaalne repositoorium.<br>
+            <span style="color: #b0b837">git</span> add . – Lisa kõik failid versioonihaldusse.<br>
+            <span style="color: #b0b837">git</span> commit -m "message" – Tee commit koos sõnumiga.<br>
+            <span style="color: #b0b837">git</span> remote add origin URL – Lisa kaug-repositoorium.<br>
+            <span style="color: #b0b837">git</span> push -u origin main – Lükka muudatused kaug-repositooriumisse.
+        </p>
+
     Need on põhilised käsud, mida kasutada kaug-repositooriumi loomiseks ja selle ühendamiseks oma lokaalse repositooriumiga.
     </div>
 </div>
